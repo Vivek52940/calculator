@@ -24,9 +24,12 @@ div.mid{
     font-size: 60px;
     cursor: pointer;
 }
-.textview{
-    height:85px;
-    width: 99%;
-    font-size: 30px;
+form{
+
+    height:95px;
+    width: 500px;
+    font-size: 60px;
     text-align:right;
+    margin-left: auto;
+    margin-right: auto;
 }
