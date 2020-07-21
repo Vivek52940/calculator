@@ -8,7 +8,9 @@
    <script src="index.js"></script>
 </head>
 <body>
+    <div class="bg"></div>
    <div class="mid">
+       
        <form name="form">
            <input class="textview" name="textview">
            </form>
@@ -16,10 +18,10 @@
           
           
            <tr>
-            <td><input class="myclass" type="button" value="C"/></td>
-            <td><input class="myclass" type="button" value="%"/></td>
-            <td><input class="myclass" type="button" value="D"/></td>
-            <td><input class="myclass" type="button" value="/"/></td>   
+            <td><input class="myclass" type="button" value="C"onclick="clr()"/></td>
+            <td><input class="myclass" type="button" value="<"onclick="back()"/></td>
+            <td><input class="myclass" type="button" value="%" onclick="insert('%')"/></td>
+            <td><input class="myclass" type="button" value="/"onclick="insert('/')"/></td>   
            </tr>
            <tr>
             <td><input class="myclass" type="button" value="7" onclick="insert(7)"/></td>
@@ -40,12 +42,13 @@
             <td><input class="myclass" type="button" value="+" onclick="insert('+')"/></td>
         </tr>
         <tr>
-            <td><input class="myclass" type="button" value="00" onclick="insert(00)"/></td>
+            <td><input class="myclass" type="button" value="00" onclick="insert('00')"/></td>
             <td><input class="myclass" type="button" value="0" onclick="insert(0)"/></td>
-            <td><input class="myclass" type="button" value="." onclick="insert(.)"/></td>
-            <td><input class="myclass" type="button" value="=" onclick="insert('=')"/></td>
+            <td><input class="myclass" type="button" value="." onclick="insert('.')"/></td>
+            <td><input class="myclass" type="button" value="=" onclick="equal('=')"/></td>
         </tr>
        </table>
    </div> 
+    
 </body>
 </html>
